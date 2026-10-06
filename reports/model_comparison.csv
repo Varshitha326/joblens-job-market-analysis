@@ -1,0 +1,5 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1
+Baseline (always most common class),0.49,0.041,0.083,0.055
+Logistic Regression,0.997,0.994,0.997,0.995
+Random Forest,1.0,1.0,1.0,1.0
+Naive Bayes,0.987,0.995,0.967,0.979

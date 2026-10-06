@@ -1,0 +1,51 @@
+=== BEFORE CLEANING ===
+Total rows: 1500
+Duplicate rows: 0
+Duplicate job_ids: 0
+Missing values per column:
+job_id                   0
+job_title                0
+job_category             0
+experience_level         0
+years_of_experience      0
+education_required       0
+annual_salary_usd        0
+salary_min_usd           0
+salary_max_usd           0
+city                     0
+country                  0
+remote_work              0
+company_size             0
+industry                 0
+required_skills          0
+ai_salary_premium_pct    0
+demand_score             0
+demand_growth_yoy_pct    0
+benefits_score_10        0
+posting_year             0
+posting_month            0
+is_senior                0
+is_remote_friendly       0
+is_llm_role              0
+salary_tier              0
+Salary outside its own min-max range: 288
+Negative years of experience: 0
+Zero or negative salary: 0
+
+=== AFTER CLEANING ===
+Rows remaining: 1500
+Rows flagged salary_outside_range: 288
+Job category counts:
+job_category
+AI Engineering      736
+Data Science        127
+Governance          122
+Robotics             74
+Product              70
+Business             62
+Infrastructure       55
+Architecture         52
+Data Engineering     51
+ML Operations        51
+Security             50
+Research             50
